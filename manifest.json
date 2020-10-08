@@ -1,0 +1,23 @@
+{
+	"name": "Bookify",
+	"short_name": "bookify",
+	"description": "Web App for Book Store",
+	"lang": "en",
+	"start_url": "/index.html",
+	"display": "standalone",
+	"background_color": "#ffffff",
+	"theme_color": "#fce4ec",
+	"icons": [
+		{
+			"src": "favicon.ico",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "assets/img/android-icon-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png",
+			"purpose": "any maskable"
+		}
+	]
+}

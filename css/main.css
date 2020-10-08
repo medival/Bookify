@@ -1,0 +1,38 @@
+.section-search input {
+	padding: 5px !important;
+	font-size: 18px !important;
+	width: 90% !important;
+	border: #f4f4f4 3px solid !important;
+}
+
+.section-follow .fa-4x {
+	margin: 5px 10px;
+}
+
+#icon-boxes {
+	margin-top: 3rem;
+}
+
+.social-media a {
+	margin: 0 1rem;
+}
+
+.offline-store-image img {
+	margin: 1rem 0;
+}
+
+.book-collection {
+	margin-top: 2rem;
+}
+
+.offline-store {
+	margin-top: 2rem;
+}
+
+.main-image {
+	margin: 0 auto;
+}
+
+.book-collection, .offline-store, .contact {
+	margin-top: 2rem;
+}
