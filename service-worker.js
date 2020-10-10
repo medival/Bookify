@@ -7,6 +7,7 @@ let urlsToCache = [
 	"/nav.html",
 	"/regist.js",
 	"https://fonts.googleapis.com/icon?family=Material+Icons",
+	"https://fonts.gstatic.com/s/materialicons/v55/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2",
 	"https://pro.fontawesome.com/releases/v5.10.0/css/all.css",
 	"/service-worker.js",
 	"/assets/font/Poppins-Medium.ttf",
