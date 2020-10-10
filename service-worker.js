@@ -44,6 +44,7 @@ let urlsToCache = [
 	"/js/materialize.js",
 	"/js/materialize.min.js",
 	"/js/script.js",
+	"/js/jquery-2.1.1.min.js",
 	"/pages/home.html",
 	"/pages/offline-store.html",
 	"/pages/book-collection.html",
