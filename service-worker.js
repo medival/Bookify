@@ -12,7 +12,12 @@ let urlsToCache = [
 	"/service-worker.js",
 	"/assets/font/Poppins-Medium.ttf",
 	"/assets/font/Poppins-Regular.ttf",
-	"/assets/img/android-icon-192x192.png",
+	"/assets/icon/android-chrome-192x192.png",
+	"/assets/icon/android-chrome-512x512.png",
+	"/assets/icon/android-icon-192x192.png",
+	"/assets/icon/apple-touch-icon.png",
+	"/assets/icon/favicon-16x16.png",
+	"/assets/icon/favicon-32x32.png",
 	"/assets/img/comic-1.jpg",
 	"/assets/img/comic-2.jpg",
 	"/assets/img/comic-3.jpg",
@@ -43,6 +48,7 @@ let urlsToCache = [
 	"/pages/offline-store.html",
 	"/pages/book-collection.html",
 	"/pages/order.html",
+	"/site.webmanifest"
 ];
 
 self.addEventListener("install", function (event) {
