@@ -50,7 +50,7 @@ let urlsToCache = [
 	"/pages/order.html",
 ];
 
-self.addEventListener("install", function (event) {
+self.addEventListener("install", event => {
 	event.waitUntil(
 		caches.open(CACHE_NAME).then(function (cache) {
 			return cache.addAll(urlsToCache);
@@ -58,7 +58,7 @@ self.addEventListener("install", function (event) {
 	);
 });
 
-self.addEventListener("fetch", function (event) {
+self.addEventListener("fetch", event => {
 	event.respondWith(
 		caches
 			.match(event.request, {
@@ -82,7 +82,7 @@ self.addEventListener("fetch", function (event) {
 	);
 });
 
-self.addEventListener("activate", function (event) {
+self.addEventListener("activate", event => {
 	event.waitUntil(
 		caches.keys().then(function (cacheNames) {
 			return Promise.all(
