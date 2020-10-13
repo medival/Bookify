@@ -6,7 +6,6 @@ let urlsToCache = [
 	"/manifest.json",
 	"/nav.html",
 	"/js/regist.js",
-	"/service-worker.js",
 	"https://fonts.googleapis.com/icon?family=Material+Icons",
 	"https://fonts.gstatic.com/s/materialicons/v55/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2",
 	"/assets/font/Poppins-Medium.ttf",
